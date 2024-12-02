@@ -1,0 +1,82 @@
+#ab{
+    height: 700px;
+    width: 200px;
+    background-color: grey;
+    position: relative;
+    left: 600px;
+    /* transition: all;
+    transition-duration: 9s;
+    transition-timing-function: ease-in;
+    transition-delay: 8s; */
+    
+}
+#bc{
+    background-color: rgb(243, 12, 12);
+    height: 125px;
+    width: 100px;
+    position: relative;
+    top: 50px;
+    bottom: 100px;
+    left: 50px;
+    right: 100px;
+    border: solid 3px black;
+    border-radius: 50%;
+    /* transition: all;
+    transition-duration: 9s;
+    transition-timing-function: ease-in;
+    transition-delay: 8s; */
+    
+}
+#cd{
+    background-color: rgb(231, 228, 24);
+    height: 125px;
+    width: 100px;
+    position: relative;
+    top: 75px;
+    bottom: 100px;
+    left: 50px;
+    right: 100px;
+    border: solid 3px black;
+    border-radius: 50%;
+    /* transition: all;
+    transition-duration: 9s;
+    transition-timing-function: ease-in;
+    transition-delay: 8s; */
+}
+#de{
+    background-color: rgb(37, 182, 8);
+    height: 125px;
+    width: 100px;
+    position: relative;
+    top: 100px;
+    bottom: 100px;
+    left: 50px;
+    right: 100px;
+    border: solid 3px black;
+    border-radius: 50%;
+    /* transition: all;
+    transition-duration: 9s;
+    transition-timing-function: ease-in;
+    transition-delay: 8s; */
+}
+#bc:hover{
+    background-color: yellow;
+    transition: all;
+    transition-duration: 4s;
+    transition-timing-function:steps(5);
+    transition-delay:0s;
+}
+#cd:hover{
+    background-color:green;
+    transition: all;
+    transition-duration: 4s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+#de:hover{
+    background-color: red;
+    transition: all;
+    transition-duration: 4s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}

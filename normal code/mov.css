@@ -1,0 +1,24 @@
+#r{
+    transition: all;
+    transition: steps(1000);
+    transition-duration: 4s;
+}
+#r:hover{
+    transition: all;
+    rotate: 3600deg;
+    transform: scale(9);
+    transition: steps(1000);
+    transition-duration: 4s;
+}
+#s{
+    transition: steps(10000);
+    /* transition-duration: 7s; */
+    transition-duration: 2s;
+}
+#s:hover{
+    /* rotate: 36000deg; */
+    transform: scale(3);
+    /* transition: steps(10000);
+    transition-duration: 7s; */
+    transform: translate(790px,200px);
+}
