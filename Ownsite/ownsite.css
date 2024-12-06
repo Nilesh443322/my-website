@@ -176,3 +176,6 @@ button:active{
 #advance:active{
     background-color:rgb(1, 189, 232) ;
 }
+.selectors:hover{
+    opacity:80%;
+}
