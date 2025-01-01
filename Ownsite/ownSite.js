@@ -69,7 +69,7 @@ let button=document.querySelector(".fb");
 let video=document.querySelectorAll(".bord");
 let div=document.querySelectorAll(".frame")
 
-button.addEventListener("click",()=>{//......................that are use to click the search button
+function searchfunction(){
     let i=0;
     let j=0;
     let flag=0;//................................................that are used because element wale loop me har bar remove ho ja raha tha append vala frame then we used codion because they are only one time remove frame
@@ -91,7 +91,7 @@ button.addEventListener("click",()=>{//......................that are use to cli
 
 
            
-           div[i].append(element);
+           div[i].append(element);//...................add video in frame ,0nly three video are one frame
            if(j%3==2){
             i++;
            }
@@ -110,7 +110,24 @@ button.addEventListener("click",()=>{//......................that are use to cli
    }
 
   }
+  
+  
+  
+  
+  
+  
+  //........................................................search krane ke liye jb search click ho
+
+button.addEventListener("click",()=>{
+    searchfunction();
+  }
 )
+//........................................................or jb enter click ho tb search krne ke liye
+input.addEventListener("keypress",(eve)=>{
+    let value =eve.key;
+    if(value =="Enter")
+    {
+        searchfunction();
 
-
-
+    } 
+})
