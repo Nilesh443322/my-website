@@ -386,11 +386,11 @@ button:active{
     .bord{
         
         padding: 0px 0px 0px 0px;
-        margin-top: 10px;
-        
-        
-        
-            
+        margin-top: 10px;         
+    }
+    video{
+        width: 300px;
+        margin-left:55px ;
     }
     
     
